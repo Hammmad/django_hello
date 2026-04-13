@@ -55,6 +55,8 @@ MIDDLEWARE = [
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
+CSRF_TRUSTED_ORIGINS = ['https://web-production-f6168.up.railway.app']
+
 ROOT_URLCONF = 'firstdjangoproject.urls'
 
 TEMPLATES = [
